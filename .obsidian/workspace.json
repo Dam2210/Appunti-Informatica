@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "fdbf7b9a0a4bf831",
+    "type": "split",
+    "children": [
+      {
+        "id": "728ab62b7f12b74a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "758906deb77bd206",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/Lezione 5 - Correttezza e completezza del metodo dei tableaux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "75e6b7116c21741d",
+    "type": "split",
+    "children": [
+      {
+        "id": "01d256ace002c6d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ac91d6233f06b37",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8470784b84596582",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "12a995f40ec63420",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "baa74f7f29f6ad8c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 360.51103591918945
+  },
+  "right": {
+    "id": "5a124477bca18aa7",
+    "type": "split",
+    "children": [
+      {
+        "id": "a453cf63c9834a0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ca638efb13838fa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e140beb8500bc45e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/Lezione 5 - Correttezza e completezza del metodo dei tableaux.md"
+              }
+            }
+          },
+          {
+            "id": "9f9f30cda55d3066",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "22aba09aa967873c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/Lezione 5 - Correttezza e completezza del metodo dei tableaux.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4bb03d6f1e5bf3f5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/Lezione 5 - Correttezza e completezza del metodo dei tableaux.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "9d51daa333b14468",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "271ebffc49c50f06",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 515.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false
+    }
+  },
+  "active": "758906deb77bd206",
+  "lastOpenFiles": [
+    "Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 2.3 - Metodo della sostituzione, divide et impera e Teorema Master.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 2.2 - Ricorsione, tecniche di progettazione e equazioni di ricorrenza.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/Lezione 5 - Correttezza e completezza del metodo dei tableaux.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/Lezione 4 - Il metodo dei Tableaux per la logica proposizionale.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 2.1 - Modelli di calcolo e notazione asintotica.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 3 - Definire operatori e strutture dati.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 1 - Un'introduzione informale agli algoritmi.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/Regola Generale Equazioni Di Ricorrenza.pdf",
+    "Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/Esercitazione.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/Lezione 1 - Introduzione.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/Lezione 2 - Induzione Matematica.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/Lezione 3 - Introduzione alla logica proposizionale.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/img/img9.png",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/img/img8.png",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/img/img7.png",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/img/img6.png",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/img/img5.png",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/img/img4.png",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/img/img3.png",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/img/img2.png",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/img/img10.png",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/img/img1.png",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche/img",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti Logiche",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti logiche/img",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti logiche/Lezione 4 - Il metodo dei Tableaux per la logica proposizionale.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti logiche/Lezione 3 - Introduzione alla logica proposizionale.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti logiche/Lezione 2 - Induzione Matematica.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti logiche/Lezione 1 - Introduzione.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti logiche/Esercitazione.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Logica e Reti logiche",
+    "Anni Universitari - Appunti Obsidian/2o anno/LRL/img",
+    "Anni Universitari - Appunti Obsidian/2o anno/LRL/Lezione 4 - Il metodo dei Tableaux per la logica proposizionale.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/LRL/Lezione 3 - Introduzione alla logica proposizionale.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/LRL/Lezione 2 - Induzione Matematica.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/LRL/Lezione 1 - Introduzione.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/LRL/Esercitazione.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/LRL",
+    "prova.txt",
+    "Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/ricorrenze.pdf",
+    "Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/Algoritmi e strutture dati.pdf",
+    "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 2.2 - Ricorsione, tecniche di progettazione e equazioni di ricorrenza.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Linguaggi e Metodologie di Programmazione/MOD I/Esercizi/Indice degli esercizi LMP.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Linguaggi e Metodologie di Programmazione/MOD I/Esercizi/Esercizio 1 - CardReader.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Linguaggi e Metodologie di Programmazione/MOD I/Esercitazioni/LMP 4.md",
+    "Senza nome 1.canvas",
+    "Senza nome.canvas"
+  ]
+}
