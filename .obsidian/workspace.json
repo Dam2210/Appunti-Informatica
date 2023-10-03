@@ -156,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 515.5
+    "width": 406.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,7 +168,7 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "9ac91d6233f06b37",
+  "active": "9f9f30cda55d3066",
   "lastOpenFiles": [
     "Anni Universitari - Appunti Obsidian/3o anno",
     "Anni Universitari - Appunti Obsidian/2o anno/prova.md",
