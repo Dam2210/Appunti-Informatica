@@ -1,4 +1,4 @@
-
+ 
 # Pumping Lemma
 
 >[!important]- Teorema
@@ -38,9 +38,9 @@ Qualunque albero sintattico $A(\sigma)$ relativo ad una stringa $\sigma\in V_T^\
 
 Poniamo $s(\sigma)=w$ e $r(\sigma)=vwx$
 
-![[appunti fi/mod i/immagini/Pasted image 20221206094941.png|center|400]]
+![[FI/img/img51.png|center|400]]
 
-![[appunti fi/mod i/immagini/Pasted image 20221206095016.png|center|400]]
+![[FI/img/img52.png|center|400]]
 
 - Gli alberi $R(\sigma),S(\sigma)$ possono essere sostituiti (avendo radice corrispondente allo stesso non terminale) l'uno all'altro all'interno di qualunque albero sintattico
 - Quindi, anche la stringa $uvy$ è generata dalla grammatica (sostituendo in $A(\sigma),R(\sigma)\:e\:S(\sigma)$)
@@ -98,9 +98,9 @@ Mostriamo che il linguaggio $L=L_1\circ L_2$ è generato dalla grammatica di tip
 
 ## Chiusura dei linguaggi CF: iterazione
 
-Dato un linguaggio CF $L\subseteq\Sigma^\star$,sia $\mathcal G=\langle\Sigma,V_{N},P,S\rangle$ e una grammatica di tipo 2 tale che $L=L(\mathcal G)$
+Dato un linguaggio CF $L\subseteq\Sigma^\star$, sia $\mathcal G=\langle\Sigma,V_{N},P,S\rangle$ una grammatica di tipo 2 tale che $L=L(\mathcal G)$
 
-Il linguaggio $L'=L^\star$ è allora generato dalla grammatica di tipo 2 $\mathcal G'=\langle\Sigma,V_N\cup\{S'\},P',S'\rangle$, dove $P'=P'\cup\{S'\to SS'|\varepsilon\}$ 
+Il linguaggio $L'=L^\star$ è allora generato dalla grammatica di tipo 2 $\mathcal G'=\langle\Sigma,V_N\cup\{S'\},P',S'\rangle$, dove $P'=P\cup\{S'\to SS'|\varepsilon\}$ 
 
 ## Chiusura dei linguaggi CF: complemento
 

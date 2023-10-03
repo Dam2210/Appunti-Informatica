@@ -15,24 +15,24 @@ Mentre gli automi a pila non deterministici riconoscono la classe dei linguaggi 
 
 Tabella di transizione dell’automa a pila che accetta per pila vuota il linguaggio $\{w\hat w|w\in\{s,b\}^+\}$
 
-![[appunti fi/mod i/immagini/Pasted image 20221217162459.png|center|550]]
+![[FI/img/img56.png|center|550]]
 
 **Esempio di accettazione per stato finale**
 
 Tabella di transizione dell’automa a pila che accetta per stato finale il linguaggio $\{w\hat w|w\in\{s,b\}^+\}$ con $q_f=q_2$
 
-![[appunti fi/mod i/immagini/Pasted image 20221217162904.png|center|550]]
+![[FI/img/img57.png|center|550]]
 
 ## Equivalenza tra condizioni di accettazione
 
 >[!important]- Teorema
->Dato un automa a pila non deterministico $\mathcal M=\langle\Sigma,\Gamma,Z_0,Q,q_0,F,\delta\rangle$ che accetta un linguaggio per stato finale,esiste un automa a pila non deterministico $\mathcal M'=\langle\Sigma',\Gamma',Z_0',Q',q_0',\emptyset,\delta'\rangle$ che accetta lo stesso linguaggio per pila vuota, vale a dire tale che $L(\mathcal M)=N(\mathcal M')$
+>Dato un automa a pila non deterministico $\mathcal M=\langle\Sigma,\Gamma,Z_0,Q,q_0,F,\delta\rangle$ che accetta un linguaggio per stato finale, esiste un automa a pila non deterministico $\mathcal M'=\langle\Sigma',\Gamma',Z_0',Q',q_0',\emptyset,\delta'\rangle$ che accetta lo stesso linguaggio per pila vuota, vale a dire tale che $L(\mathcal M)=N(\mathcal M')$
 
 $\mathcal M'$ opera in modo simile a $\mathcal M$ , secondo lo schema seguente:
 
 1. All’inizio $\mathcal M'$ ha nella pila un simbolo speciale $X$ non appartenente a $\Gamma$ ed inserisce al di sopra di $X$ il simbolo $Z_0$
 2. Quindi,$\mathcal M'$ esegue gli stessi passi di $\mathcal M$. Si noti che nel corso di tale fase la pila di $\mathcal M'$ non sarà mai vuota
-3. Se, alla fine della stringa di input,$\mathcal M$ raggiunge un suo stato finale (che quindi è raggiuntoanche da $\mathcal M'$),$\mathcal M'$ provvede ad eliminare tutti i simboli presenti in pila, incluso $X$
+3. Se, alla fine della stringa di input,$\mathcal M$ raggiunge un suo stato finale (che quindi è raggiunto anche da $\mathcal M'$),$\mathcal M'$ provvede ad eliminare tutti i simboli presenti in pila, incluso $X$
 
 
 $\mathcal M'$ è allora definito come $\Sigma'=\Sigma,\Gamma'=\Gamma\cup\{X\}(X\not\in\Gamma),Z_0'=X,Q'=Q\cup\{q_0',q_f\}(q_0',q_f\not\in\Gamma)$ e, per quanto riguarda la funzione di transizione $\delta'$:
@@ -158,7 +158,7 @@ da cui otteniamo come caso particolare, che $[q_0Z_,q']\xRightarrow[]{\star}x\if
 
 Accettazione/produzione della stringa 00011
 
-![[appunti fi/mod i/immagini/Pasted image 20221228125503.png|center|650]]
+![[FI/img/img58.png|center|650]]
 
 # Automi a pila deterministici
 
@@ -173,5 +173,5 @@ Una stringa è accettata da un automa a pila deterministico se e solo se essa da
 
 Intuitivamente, un linguaggio separatore è dato da $L = \{w\hat w | w\in\{a,b\}^+ \}$
 
-Il linguaggio, di tipo 2, non può essere accettato da alcun automa a pila deterministico. Infatti,intuitivamente, durante la scansione dell’input non è possibile individuare a priori, in maniera deterministica, dove termina la stringa $w$ ed inizia $\hat w$.
+Il linguaggio, di tipo 2, non può essere accettato da alcun automa a pila deterministico. Infatti, intuitivamente, durante la scansione dell’input non è possibile individuare a priori, in maniera deterministica, dove termina la stringa $w$ ed inizia $\hat w$.
 

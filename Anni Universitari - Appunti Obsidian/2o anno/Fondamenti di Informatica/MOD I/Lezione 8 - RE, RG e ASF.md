@@ -1,5 +1,7 @@
-# Espressioni Regolari e Grammatiche
-
+# Lezione 8
+## Espressioni regolari, grammatiche regolari e ASF
+---
+## Espressioni regolari e grammatiche
 >**Teorema**
 >Tutti i linguaggi definiti da espressioni regolari sono regolari
 
@@ -16,7 +18,7 @@ Estensione del linguaggio delle espressioni regolari con variabili $A,...,Z$, as
 
 Tali variabili potranno assumere valori nell'insieme delle espressioni regolari
 
-Raggruppamento di tutte le produzioni che presentano a sinistra lo stesso non terminale. Per ogni produzione del tipo $$A\to a_1B_1|a_2B_2|...|a_nB_n|b_1|b_2|...|b_m$$abbiamo un equazione del tipo:
+Raggruppamento di tutte le produzioni che presentano a sinistra lo stesso non terminale. Per ogni produzione del tipo $$A\to a_1B_1\:|\:a_2B_2\:|\:...\:|\:a_nB_n\:|\:b_1\:|\:b_2\:|\:...\:|\:b_m$$abbiamo un equazione del tipo:
 $$A=a_1B_1+a_2B_2+...+a_nB_n+b_1+b_2+...+b_m$$
 
 Da una grammatica regolare si ottiene un sistema di **equazioni lineari destre**, in cui ogni monomio contiene una variabile a destra di simboli terminali
@@ -69,7 +71,7 @@ $$\begin{cases}A_0&=a(b(b^\star aa^\star+a^\star)(bA_0+b))+a\\A_1&=b(b^\star aa^
 per fattorizzazione nell'equazione relativa ad $A_0$
 $$\begin{cases}A_0&=ab(b^\star aa^\star+a^\star)bA_0+ab(b^\star aa^\star+a^\star)b+a\\A_1&=b(b^\star aa^\star+a^\star)(bA_0+b)\\A_2&=a^\star(bA_0+b)\\A_3&=b^\star aa^\star(bA_0+b)\end{cases}$$
 
-# Espressioni Regolari e ASF
+## Espressioni Regolari e ASF
 
 >**Teorema**
 >Dato un ASFD $\mathcal A$, esiste una espressione regolare $r$ tale che $L(\mathcal A)=L(r)$, che descrive cioè il linguaggio riconosciuto da $\mathcal A$
@@ -112,14 +114,17 @@ Quindi, il linguaggio $L$ sarà descritto dall'espressione regolare
 $$r_{0(n-1)}^n$$
 **Esempio**
 
-![[Pasted image 20221114105223.png|center|500]]
+![[FI/img/img23.png|center|500]]
+
 Assumiamo l'ordinamento $q_0=q_0,q_1=q_1,q_2=q_3,q_3=q_2$ tra gli stati. 
 Allora:
-![[Pasted image 20221114105420.png|center|400]]
+
+![[FI/img/img24.png|center|400]]
+
 E quindi:
-![[Pasted image 20221114105736.png|center|500]]
-![[Pasted image 20221114105826.png|center|500]]
-![[Pasted image 20221114105854.png|center|600]]
+![[FI/img/img25.png|center|500]]
+![[FI/img/img26.png|center|500]]
+![[FI/img/img27.png|center|500]]
 
 E quindi il linguaggio accettato dall'automa sarà descritto dall'espressione regolare 
 $$r_{03}^4$$

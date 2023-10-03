@@ -1,11 +1,13 @@
-# CNF (Chomsky Normal Form)
+# Lezione 13 - Chomsky e Greibach Normal Form
+---
+## CNF (Chomsky Normal Form)
 
 Una grammatica di tipo 2 si dice in **Forma Normale di Chomsky** se tutte le sue produzioni sono del tipo $A\to BC$ o del tipo $A\to a$, con $A,B,C\in V_N,a\in V_T$
 
 >[!important]- Teorema
 >Data un grammatica $\mathcal G$ non contestuale tale che $\varepsilon\not\in L(\mathcal G)$, esiste una grammatica equivalente in CNF
 
-Come mostrato, è possibilederivare una grammatica $\mathcal G'$ in forma ridotta equivalente a $\mathcal G$: in particolare, $\mathcal G'$ non ha produzioni unitarie
+Come mostrato, è possibile derivare una grammatica $\mathcal G'$ in forma ridotta equivalente a $\mathcal G$: in particolare, $\mathcal G'$ non ha produzioni unitarie
 
 Da $\mathcal G'$, è possibile derivare una grammatica $\mathcal G''$ in CNF, equivalente a essa
 
@@ -21,19 +23,18 @@ Sia $A\to\zeta_{i_1}...\zeta_{i_n}$  una produzione di $\mathcal G'$ non in CNF.
 Si consideri la grammatica di tipo 2 che genera il linguaggio $\lbrace a^nb^n|n\geq1\rbrace$ con le produzioni:
 $$\begin{align}S&\to aSb\\S&\to ab\end{align}$$
 La gramamtica è in forma ridotta
-
 La grammatica equivalente in CNF avrà le seguenti produzioni: 
 $$\begin{align}&S\to X_aSX_b\\&X_a\to a\\&X_b\to b\\&\text{oppure}\\&S\to X_aZ_1\\&Z_1\to SX_b\\&X_a\to a\\&X_b\to b\end{align}$$
 >[!info]- Osservazione
 >La produzione $S\to X_aSX_b$ può essere sostituita con le produzioni $S\to X_aZ_1,Z_1\to SX_b$
 
-# GNF (Greibach Normal Form)
+## GNF (Greibach Normal Form)
 
 Una grammatica di tipo 2 si dice in **Forma Normale di Greibach** (GNF) se tutte le sue produzioni sono del tipo $A\to a\beta$, con $A\in V_N,a\in V_T,\beta\in V_N^\star$
 
 Si osservi come una grammatica di tipo 3 corrisponda al caso in cui $|\beta|\leq1$
 
-## Trasformazione in forma normale di Greibach
+### Trasformazione in forma normale di Greibach
 
 >[!important]- Lemma (Sostituzione)
 >Sia $\mathcal G$ una grammatica di tipo 2 le cui produzioni includono $$\begin{align}A&\to\alpha_1B\alpha_2\\B&\to\beta_1|...|\beta_n\end{align}$$
@@ -57,9 +58,9 @@ Si assuma che $\mathcal G$ sia una grammatica CF in CNF che genera $L$
 
 La derivazione di $\mathcal G'$ da $\mathcal G$ avviene applicando iterativamente i due lemmi precedenti, a partire da un ordinamento arbitrario $A_1,...,A_n$ tra i non terminali di $\mathcal G$.
 
-### Fase 1
+#### Fase 1
 
-![[appunti fi/mod i/immagini/Pasted image 20221130153509.png|center|700]]
+![[FI/img/img48.png|center|]]
 
 Siano $B_1,...,B_j$ i non terminali aggiunti. A questo punto le produzioni sono tutte di uno tra i tipi:
 
@@ -71,15 +72,15 @@ Inoltre, le $A_k$-produzioni sono:
 - se $k=n$ tutte del tipo (b)
 - se $k\lt n$ del tipo (b) o del tipo (a), con $j\leq n$
 
-### Fase 2
+#### Fase 2
 
-![[appunti fi/mod i/immagini/Pasted image 20221130155448.png|center|700]]
+![[FI/img/img49.png|center|]]
 
 A questo punto le produzioni sono del tipo (b) o (c)
 
-### Fase 3
+#### Fase 3
 
-![[appunti fi/mod i/immagini/Pasted image 20221130155547.png|center|700]]
+![[FI/img/img50.png|center|]]
 
 A questo punto le produzioni sono del tipo (b)
 
