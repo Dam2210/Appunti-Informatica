@@ -16,7 +16,6 @@ La riproduzione dei conigli può essere descritta in un albero:
 
 ### La regola di espansione
 
-^3d1572
 
 - Nell'anno n ci sono tutte le coppie dell'anno precedente e una nuova coppia di conigli per ogni coppia presente l'anno prima.
 - Indicando con $F_n$ il numero di coppie dell'anno n abbaimo la seguente relazione di ricorrenza:
