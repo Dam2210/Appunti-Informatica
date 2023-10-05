@@ -18,7 +18,7 @@ La riproduzione dei conigli può essere descritta in un albero:
 
 
 - Nell'anno n ci sono tutte le coppie dell'anno precedente e una nuova coppia di conigli per ogni coppia presente l'anno prima.
-- Indicando con $F_n$ il numero di coppie dell'anno n abbaimo la seguente relazione di ricorrenza:
+- Indicando con $F_n$ il numero di coppie dell'anno n abbiamo la seguente relazione di ricorrenza:
 $$Fn= \begin{cases}
 F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 1& se\ \ n=1,2

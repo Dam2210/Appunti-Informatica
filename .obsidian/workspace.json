@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/MOD I/Lezione 1 - Insiemi infiniti, Linguaggi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "959d9c2de34242cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 1 - Un'introduzione informale agli algoritmi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,9 +176,13 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "959d9c2de34242cc",
+  "active": "758906deb77bd206",
   "lastOpenFiles": [
+    "Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/8mg47.png",
+    "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/MOD I/Lezione 1 - Insiemi infiniti, Linguaggi.md",
+    "Anni Universitari - Appunti Obsidian.zip",
     "Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
+    "Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 1 - Un'introduzione informale agli algoritmi.md",
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/MOD I/Capitolo 0 - Fondamenti di informatica.md",
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/MOD II/Senza nome.md",
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/MOD II",
@@ -215,7 +206,6 @@
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/MOD I/Lezione 12 - Sempre su Linguaggi CF.md",
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/MOD I/Lezione 11 - Pumping Lemma per RL, Linguaggi CF.md",
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/MOD I/Lezione 10 - Minimizzazione di ASF.md",
-    "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/MOD I/Lezione 1 - Insiemi infiniti, Linguaggi.md",
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/MOD I",
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/img/img9.png",
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/img/img8.png",
@@ -229,14 +219,11 @@
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/img/img6.png",
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/img",
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/FI/img",
-    "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/FI/MOD II/Senza nome.md",
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/FI/MOD II",
-    "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/FI/MOD I/Riepilogo.md",
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/FI/MOD I",
     "Anni Universitari - Appunti Obsidian/2o anno/Fondamenti di Informatica/FI",
     "Anni Universitari - Appunti Obsidian/3o anno/prova.txt",
     "Anni Universitari - Appunti Obsidian/3o anno",
-    "Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/Regola Generale Equazioni Di Ricorrenza.pdf",
     "Senza nome 1.canvas",
     "Senza nome.canvas"
   ]
