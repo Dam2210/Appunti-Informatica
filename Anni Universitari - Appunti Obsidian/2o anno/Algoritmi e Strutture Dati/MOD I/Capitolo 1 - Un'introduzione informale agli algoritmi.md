@@ -37,7 +37,7 @@ $$ \begin{cases}
 \end{cases}$$
 
 #### Algoritmo Fibonacci 1
-Algoritmo**Fibonacci1** $(intero\ n)\rightarrow intero$
+Algoritmo **Fibonacci1** $(intero\ n)\rightarrow intero$
  1. $return \frac{1}{\sqrt5}\cdot(\phi^n - \hat{\phi}^n)$
 
 ##### Correttezza?
