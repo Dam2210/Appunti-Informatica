@@ -4,7 +4,7 @@
 ![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img7.png|center|500]]
 
 - Troppo di basso livello: somiglia troppo poco ai calcolatori reali su cui girano i programmi
-- Utile per parlare di calcolabilità ma meno utile per parlare di efficenza
+- Utile per parlare di calcolabilità ma meno utile per parlare di efficienza
 
 Un modello più realistico...
 - Macchina a registri (**RAM**: random access machine)
@@ -13,7 +13,7 @@ Un modello più realistico...
 	- una memoria strutturata come un array
 		- ogni cella può contenere un qualunque valore reale/intero
 	- due registri speciali: PC e ACC
-- la RAM è unìastrazione dell'architettura di von Neumann
+- la RAM è un'astrazione dell'architettura di Von Neumann
 
 ![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img8.png|center|500]]
 
@@ -49,7 +49,7 @@ Rappresenta una garanzia sul tempo di esecuzione di ogni istanza
 Sia P(I) la probabilità di occorrenza dell'istanza I
 $$T_{avg}(n)=\sum_{\text{istanze I di dimensione n}}(P(I)\cdot tempo(I))$$
 Intuitivamente, $T_{avg}(n)$ è il tempo di esecuzione nel caso medio, ovvero sulle istanze di ingresso "tipiche" per il problema
-Come faccio a conoscere la distribuizione di probabilità sulle istanze?
+Come faccio a conoscere la distribuzione di probabilità sulle istanze?
 - Semplice:(di solito) non posso conoscerla
 	- faccio un'assunzione
 	- spesso è difficile fare assunzioni realistiche
