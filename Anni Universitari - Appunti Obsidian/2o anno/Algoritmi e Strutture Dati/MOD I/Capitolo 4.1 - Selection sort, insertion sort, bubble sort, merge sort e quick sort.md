@@ -9,7 +9,7 @@ Data una sequenza di n numeri $\langle a_1,a_2,....,a_n\rangle$, vogliamo ottene
 
 **Approccio incrementale**: estende l'ordinamento da k a k+1 elementi, scegliendo il minimo degli n-k elementi non ancora ordinati e mettendolo in posizione k+1 ^09646f
 
-![[img23.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img23.png|center|500]]
 
 **Pseudo-codice**:
 SelectionSort(A)
@@ -53,12 +53,12 @@ Upper Bound $O(n^2)$ e Lower Bound $\Omega(n^2)$ allora $T(n)=\Theta(n^2)$
 ### Insertion Sort
 **Approccio incrementale**: estende l'ordinamento da k a k+1 elementi, posizionando l'elemento (k+1)-esimo nella posizione corretta rispetto ai primi k elementi
 
-![[img24.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img24.png|center|500]]
 
 ### Bubble Sort
 **Approccio incrementale**: esegue n-1 scansioni. Ad ogni scansione guarda coppie di elementi adiacenti e li scambia se non sono nell'ordine corretto
 
-![[img25.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img25.png|center|500]]
 
 **Esercizio**
 Scrivere per i due algoritmi lo pseudo-codice ed effettuare l'analisi nel caso peggiore
@@ -82,7 +82,7 @@ Usa la tecnica del divide et impera.
 
 ### Esempio di esecuzione
 
-![[img26.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img26.png|center|500]]
 
 
 ### Procedura Merge
@@ -145,7 +145,7 @@ Rispetto al MergeSort, divide complesso ed impera semplice
 
 **Esempio**
 
-![[img27.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img27.png|center|500]]
 
 **Pseudo-codice Partition**
 
@@ -178,7 +178,7 @@ In ogni istante, gli elementi $A[i],...,A[inf-1]$ sono $\leq$ del perno, mentre 
 
 **Esempio di esecuzione**
 
-![[img28.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img28.png|center|500]]
 
 L'albero delle chiamate corsive può essere sbilanciato
 
@@ -195,7 +195,7 @@ $$T(n)=T(n-1)+T(0)+O(n)=T(n-1)+O(1)+O(n)=T(n-1)+O(n)$$$$\implies T(n)=O(n^2)$$
 #### Analisi caso migliore
 $O(nlog(n))$, partizionamento sempre bilanciato = albero della ricorsione bilanciato
 
-![[img29.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img29.png|center|500]]
 
 #### Analisi caso medio
 
@@ -208,7 +208,7 @@ $O(nlog(n))$, partizionamento sempre bilanciato = albero della ricorsione bilanc
 
 La complessità è ancora $O(nlog(n))$
 
-![[img30.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img30.png|center|500]]
 
 ... e se le istanze non sono equiprobabili?
 ### Versione Randomizzata

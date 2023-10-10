@@ -18,11 +18,11 @@ Si potrebbe voler ordinare per matricola o per anno di nascita
 Tempo $O(n+k)$ come per IntegerSort 
 
 **Esempio**
-![[img62.png|center|200]]
-![[img63.png|center|200]]
-![[img64.png|center|200]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img62.png|center|200]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img63.png|center|200]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img64.png|center|200]]
 ... e così via...
-![[img65.png|center|200]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img65.png|center|200]]
 fino a...
 ![[img66.png|center|400]]
 

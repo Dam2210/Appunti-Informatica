@@ -12,7 +12,7 @@ Regole:
 ## L'albero dei conigli
 La riproduzione dei conigli può essere descritta in un albero:
 
-![[img0.png|center|600]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img0.png|center|600]]
 
 ### La regola di espansione
 
@@ -48,10 +48,9 @@ $\phi\approx 1.618 \ e \ \hat{\phi}\approx -0.618$
 
 #### Algoritmo Fibonacci 2
 
-^b2d264
 
 Utilizzare direttamente la [[#^3d1572|definizione ricorsiva]]
-Algoritmo**Fibonacci2** $(intero\ n)\rightarrow intero$
+Algoritmo **Fibonacci2** $(intero\ n)\rightarrow intero$
  1. $if \: (n\leq 2)\: then\ return \: 1$ 
  2. $else \: return$ Fibonacci2$(n-1)$ + Fibonacci2$(n-2)$
 
@@ -68,7 +67,7 @@ In generale, il tempo richiesto da un algoritmo ricorsivo è pari al tempo speso
 ##### Albero della ricorsione
 Utile per risolvere la relazione di ricorrenza. I nodi corrispondono alle chiamate ricorsive, mentre i figli di un nodo corrispondono alle sottochiamate.
 
-![[img1.png|center|600]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img1.png|center|600]]
 
 ##### Calcolare $T(n)$
 Etichettiamo i nodi dell'albero con il numero di linee di codice eseguite nella chiamata:
@@ -79,12 +78,12 @@ Per calcolare $T(n)$ contiamo il numero di foglie e di nodi interni.
 ###### Lemma 1
 Il numero di foglie dell'albero della ricorsione di $Fibonacci2(n)$ è pari a $F_n$
 **Dim.**
-![[img2.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img2.png|center|500]]
 
 ###### Lemma 2
 Il numero di nodi interni di un albero in cui ogni nodo interno ha due figli è pari al numero di foglie -1
 **Dim.**
-![[img3.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img3.png|center|500]]
 
 In totale le linee di codice eseguite sono: $$F_{n}+2 \cdot(F_{n}-1)=3F_{n}-2$$
 **Oss.**
@@ -115,7 +114,7 @@ Algoritmo**Fibonacci3**$(intero \ n )\rightarrow intero$
 (38 milione di volte più dell'algoritmo $Fibonacci2$!)
 - L'algoritmo $Fibonacci3$ impiega tempo proporzionale a n invece di esponenziale in n come Fibonacci2
 - Tempo effettivo richiesto da implementazioni in C dei due algoritmi su piattaforme obsolete:
-![[img4.png]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img4.png]]
 
 ##### Occupazione di memoria
 - Il tempo di esecuzione non è la sola risorsa di calcolo che ci interessa. Anche la quantità di **memoria necessaria** può essere cruciale. Se abbiamo un algoritmo lento, dovremo solo attendere più a lungo per ottenere il risultato, ma se un algoritmo richiede più spazio di quello a disposizione, non otterremo mai la soluzione, indipendentemente da quanto attendiamo!
@@ -176,11 +175,11 @@ Per i= $\lfloor log_2 n\rfloor$ si ottiene
 $T(n) \leq c \cdot \lfloor log_2 n\rfloor + T(1)= O(log_2 n)$
 
 ##### Analisi memoria ausiliaria Fibonacci2
-![[img5.png|center|600]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img5.png|center|600]]
 
 - Chiamate attive formano un cammino P radice-nodo
 - P ha al più n nodi
 - Ogni nodo / chiamata usa memoria costante
 
 #### Riepilogo finale
-![[img6.png|center|600]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img6.png|center|600]]

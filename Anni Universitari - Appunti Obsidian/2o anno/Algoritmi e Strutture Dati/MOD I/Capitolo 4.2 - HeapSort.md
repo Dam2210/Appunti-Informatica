@@ -17,13 +17,13 @@ Utilizza lo stesso approccio incrementale del [[Capitolo 4.1 - Selection sort, i
 
 ### Alberi: qualche altra definizione
 
-![[img31.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img31.png|center|500]]
 
 **albero d-ario**: albero in cui tutti i nodi interni hanno (al più) d figli
 Se $d=2\implies$**albero binario**
 Un albero d-ario è **completo**: se tutti nodi interni hanno esattamente d figli e le foglie sono tutte allo stesso livello
 
-![[img32.png|center|400]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img32.png|center|400]]
 
 ## Struttura dati Heap
 Un heap associato a un insieme S di elementi  è un albero binario radicato con le seguenti proprietà:
@@ -31,7 +31,7 @@ Un heap associato a un insieme S di elementi  è un albero binario radicato con 
 2. gli elementi di S sono memorizzati nei nodi dell'albero (ogni nodo v memorizza uno e un solo elemento, denotato con chiave(v))
 3. chiave(padre(v))$\geq$ chiave(v) per ogni nodo v diverso dalla radice
 
-![[img33.png|center|300]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img33.png|center|300]]
 
 ### Proprietà degli Heap
 1. Il **massimo** è contenuto **nella radice**
@@ -41,15 +41,15 @@ Un heap associato a un insieme S di elementi  è un albero binario radicato con 
 #### Altezza di un heap
 Sia H un heap di n nodi e altezza h
 
-![[img34.png|center|400]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img34.png|center|400]]
 
 $$n\geq 1+\sum_{i=0}^{h-1}2^i=1+2^h-1=2^h\implies h\leq log_2n$$
 #### Rappresentazione tramite vettore posizionale
 
-![[img35.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img35.png|center|500]]
 
 ...ancora un esempio
-![[img36.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img36.png|center|500]]
 
 ## La procedura fixHeap
 
@@ -67,32 +67,32 @@ Sia v la radice di H. Assume che i sottoalberi radicati nel figlio sinistro e de
 Tempo di esecuzione: $O(log(n))$
 
 **Esempio**
-![[img37.png|center|300]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img37.png|center|300]]
 
 Scambio 4 con 16 (quindi chiave(i=1)<chiave(i=2))
 
-![[img38.png|center|300]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img38.png|center|300]]
 
 scambio 4 con 14 (quindi chiave(i=2)<chiave(i=4))
 
-![[img39.png|center|300]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img39.png|center|300]]
 
 scambio 4 con 8 (quindi chiave(i=4)<chiave(i=9))
 
-![[img40.png|center|300]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img40.png|center|300]]
 
 Complessità $O(log(n))$
 
 ### Pseudocodice più dettagliato
 (l'heap è mantenuto attraverso un vettore posizionale)
 
-![[img41.png|center|300]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img41.png|center|300]]
 
 ## Estrazione del massimo
 Copia nella radice la chiave contenuta nella foglia più a destra dell'ultimo livello, rimuove la foglia e ripristina l'ordinamento a heap richiamando [[#^78cb79|fix heap]] sulla radice.
 
-![[img42.png|center|300]]
-![[img43.png|center|300]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img42.png|center|300]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img43.png|center|300]]
 ![[img44.png|center|300]]
 
 ## Costruzione dell'heap
@@ -104,10 +104,10 @@ Creiamo un albero binario in cui inseriamo gli elementi di un array in un qualsi
 >	heapify(des(H))
 >	fixHeap(radice(H), H)
 
-![[img45.png|center|400]]
-![[img46.png|center|400]]
-![[img47.png|center|400]]
-![[img48.png|center|400]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img45.png|center|400]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img46.png|center|400]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img47.png|center|400]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img48.png|center|400]]
 
 #### Complessità heapify
 
@@ -140,7 +140,7 @@ Questo algoritmo di ordinamento costruisce un heap associato all'array A tramite
 
 ### Pseudocodice
 
-![[img49.png|center|300]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img49.png|center|300]]
 
 - linea 1 ha costo $O(n)$
 - linee 3-6 eseguono n-1 estrazioni di costo $O(log(n))$
@@ -148,15 +148,15 @@ $\implies$ ordina in loco in tempo $O(nlog(n))$
 
 #### Esempio concreto
 
-![[img50.png|center|400]]
-![[img51.png|center|400]]
-![[img52.png|center|400]]
-![[img53.png|center|400]]
-![[img54.png|center|400]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img50.png|center|400]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img51.png|center|400]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img52.png|center|400]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img53.png|center|400]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img54.png|center|400]]
 
 e così via, fin quando non ottengo il seguente risultato:
 
-![[img55.png|center|400]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img55.png|center|400]]
 
 ## Ritornado a max-heap e min-heap
 

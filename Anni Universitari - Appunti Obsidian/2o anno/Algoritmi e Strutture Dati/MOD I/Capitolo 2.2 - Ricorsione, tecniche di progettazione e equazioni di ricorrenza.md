@@ -61,7 +61,7 @@ Idea:
 **Esempio**
 $T(n)=T(n-1)+1$
 
-![[img19.png|center|50]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img19.png|center|50]]
 Quanto costa ogni nodo? ...uno!
 Quanti nodi ha l'albero? **n**
 Di conseguenza possiamo dire che $T(n)=\Theta(n)$
@@ -69,7 +69,7 @@ Di conseguenza possiamo dire che $T(n)=\Theta(n)$
 **Esempio**
 $T(n)=T(n-1)+n$
 
-![[img19.png|center|50]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img19.png|center|50]]
 
 Quanto costa ogni nodo? **...al più n**
 Quanti nodi ha l'albero? **n**
@@ -77,7 +77,7 @@ Quanti nodi ha l'albero? **n**
 Quindi possiamo dedurre che $T(n)=O(n^2)$
 Ma vale $T(n)=\Theta(n^2)$?
 
-![[img20.png|center|250]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img20.png|center|250]]
 
 
 Come possiamo vedere dalla foto, il lower bound è $T(n)\geq \frac{n}{2}\frac{n}{2}=\frac{n^2}{4}$ e quindi $T(n)=\Omega(n^2)$
@@ -90,7 +90,7 @@ I nodi di un albero binario completo di altezza h sono dati dalla seguente formu
 **Es.**
 $T(n) = 2T(n - 1) + 1$ 
 $T(1) = 1$
-![[img21.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img21.png|center|500]]
 
 Quanto mi costa ogni nodo? ...uno!
 Quanto è alto l'albero? ...n-1
@@ -101,7 +101,7 @@ Quindi possiamo dire che $T(n)=2^n-1=\Theta(2^n)$
 **Esempio**
 $T(n) = 2T(n - 1) + n$ 
 $T(1) = 1$
-![[img21.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img21.png|center|500]]
 
 Quanto costa ogni nodo? ...al più n
 Quanto è alto l'albero? n-1
@@ -113,7 +113,7 @@ $T(n)=O(n2^n)$
 
 **Un esempio un pò più complesso**
 
-![[img22.png]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img22.png]]
 
 In questo esempio possiamo verificare che a sinistra l'albero scende ogni volta di n/3, mentre a destra scende di 3n/2; da questo possiamo dedurre che da sinistra l'albero sarà alto $log_3n$ mentre da destra $log_{3/2}n$
 

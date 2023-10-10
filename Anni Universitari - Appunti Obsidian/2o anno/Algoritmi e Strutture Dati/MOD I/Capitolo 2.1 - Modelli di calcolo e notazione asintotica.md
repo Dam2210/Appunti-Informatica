@@ -1,7 +1,7 @@
 ----
 # Un modello di calcolo storico: la macchina di Turing
 
-![[img7.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img7.png|center|500]]
 
 - Troppo di basso livello: somiglia troppo poco ai calcolatori reali su cui girano i programmi
 - Utile per parlare di calcolabilità ma meno utile per parlare di efficenza
@@ -15,7 +15,7 @@ Un modello più realistico...
 	- due registri speciali: PC e ACC
 - la RAM è unìastrazione dell'architettura di von Neumann
 
-![[img8.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img8.png|center|500]]
 
 ## Modello di calcolo: cosa posso fare
 - L'analisi della complessità di un algoritmo è basata sul concetto di **passo elementare**
@@ -75,7 +75,7 @@ cioè ignoro:
 ## Notazione asintotica O
 $f(n)=\mathcal{O}g(n)$ se $\exists$ $c>0$, $n_0\geq0$ tali che $0\leq f(n)\leq c\cdot g(n)\:\:\forall\: n\geq n_0$    
 
-![[img11.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img11.png|center|500]]
 **Esempi**
 
 Sia $f(n)=2n^2+3n$, allora:
@@ -89,7 +89,7 @@ $$f(n)=O(g(n))\implies lim_{n\to\infty}{\frac{f(n)}{g(n)}}\lt\infty$$
 
 $f(n)=\Omega(g(n))$ se $\exists\:c\gt0, n_0\geq0|f(n)\geq c\cdot g(n)\geq0$ 
 
-![[img13.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img13.png|center|500]]
 
 **Esempi**
 
@@ -105,7 +105,7 @@ $$f(n)=\Omega(g(n))\implies lim_{n\to\infty}\frac{f(n)}{g(n)}\gt0$$
 
 $f(n)=\Theta(g(n))$ se $\exists c_1,c_2\gt0,n_0\geq0|c_1\cdot g(n)\leq f(n)\leq c_2\cdot g(n)$
 
-![[img15.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img15.png|center|500]]
 
 **Esempi**
 

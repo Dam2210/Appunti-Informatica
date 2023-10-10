@@ -66,7 +66,7 @@ Ogni nodo interno (non foglia):
 Nodo foglia:
 - modella una risposta (output) dell'algoritmo, ovvero **permutazione degli elementi**
 
-![[img56.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img56.png|center|500]]
 
 **Osservazioni**
 - L'albero di decisione **non è** associato ad un problema
@@ -95,7 +95,7 @@ v ha almeno un figlio u che è radice di un (sotto)albero che ha almeno k/2 fogl
 T ha altezza almeno
 $1+log_2(k/2)=1+log_2(k)-log_2(2)=log_2(k)$
 
-![[img57.png|center|300]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img57.png|center|300]]
 
 ## Il Lower Bound $\Omega(nlog(n))$
 
@@ -103,7 +103,7 @@ Consideriamo l'albero di decisione di un qualsiasi algoritmo che risolve il prob
 L'altezza h dell'albero di decisione è almeno $log_2(n!)$
 **Formula di Stirling**: $n!\approx (2\pi n)^{1/2}\cdot(n/e)^n$
 
-![[img58.png|center|400]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img58.png|center|400]]
 
 >Può un algoritmo **basato su confronti** ordinare n interi piccoli, diciamo compresi fra 1 e k=$O(n)$, in (asintoticamente) meno di $nlog(n)$
 
@@ -114,15 +114,15 @@ Algoritmo di sort per ordinare n interi con valori compresi $[1,k]$
 
 Mantiene un array secondario Y di k contatori tale che $Y[x]=$ numero di volte che il valore x compare nell'array di input X
 
-![[img59.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img59.png|center|500]]
 
 Scorre Y da sinistra a destra e, se $Y[x]=k > 0$, scrive in X il valore x per k volte
 
-![[img60.png|center|500]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img60.png|center|500]]
 
 ## PseudoCodice
 
-![[img61.png|center|600]]
+![[Anni Universitari - Appunti Obsidian/2o anno/Algoritmi e Strutture Dati/MOD I/img/img61.png|center|600]]
 
 Quindi possiamo dire che
 $$\sum_{i=1}^k(1+Y[i])=\sum_{i=1}^k1+\sum_{i=1}^kY[i]=k+n$$
