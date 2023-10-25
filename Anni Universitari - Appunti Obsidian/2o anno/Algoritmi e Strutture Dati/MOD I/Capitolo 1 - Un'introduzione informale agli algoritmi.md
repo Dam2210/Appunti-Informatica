@@ -1,7 +1,7 @@
 ----
 # I numeri di Fibonacci
 
-Quanto velocemente si espanderebbe una popolazione di conigli sotto appropriate condizioni, partendo da una coppia di conigli?
+Quanto velocemente si espanderebbe una popolazione di conigli sotto appropriate condizioni, partendo da una coppia di conigli? 
 
 Regole:
 - Una coppia di conigli concepisce 2 conigli di sesso diverso ogni anno.
