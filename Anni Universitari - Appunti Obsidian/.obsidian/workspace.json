@@ -158,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 450.5
+    "width": 388.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,7 +170,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb7cec71ab6a8462",
+  "active": "d66d63fd096672c2",
   "lastOpenFiles": [
     "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
     "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 11.2 - Strutture dati per rappresentare grafi.md"
