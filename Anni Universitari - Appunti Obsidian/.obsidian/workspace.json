@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 1 - Un'introduzione informale agli algoritmi.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "1f3c229512774f1e",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 1 - Un'introduzione informale agli algoritmi.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 1 - Un'introduzione informale agli algoritmi.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 1 - Un'introduzione informale agli algoritmi.md"
+                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md"
               }
             }
           },
@@ -158,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5
+    "width": 457.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,8 +170,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d66d63fd096672c2",
+  "active": "13fb827ac0482097",
   "lastOpenFiles": [
+    "2o anno/Fondamenti di Informatica/MOD I/Lezione 3 - Ancora espressioni regolari, grammatiche.md",
+    "2o anno/Fondamenti di Informatica/MOD I/Lezione 1 - Insiemi infiniti, Linguaggi.md",
+    "2o anno/Fondamenti di Informatica/MOD I/Capitolo 0 - Fondamenti di informatica.md",
+    "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
+    "FI/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
+    "FI/MOD I",
+    "FI",
+    "2o anno/Fondamenti di Informatica/MOD I/Lezione 8 - Espressioni regolari e grammatiche di tipo 3.md",
+    "2o anno/Fondamenti di Informatica/MOD I/Lezione 7 - Equivalenza tra ASFD e ASFND.md",
+    "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md",
+    "2o anno/Fondamenti di Informatica/MOD I/Lezione 5 - Automi.md",
+    "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 1 - Un'introduzione informale agli algoritmi.md",
     "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
     "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 11.2 - Strutture dati per rappresentare grafi.md"
   ]
