@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md"
+                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md"
               }
             }
           },
@@ -158,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 457.5
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,12 +170,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "13fb827ac0482097",
+  "active": "83510327355e1df9",
   "lastOpenFiles": [
+    "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 3 - Ancora espressioni regolari, grammatiche.md",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 1 - Insiemi infiniti, Linguaggi.md",
     "2o anno/Fondamenti di Informatica/MOD I/Capitolo 0 - Fondamenti di informatica.md",
-    "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
     "FI/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
     "FI/MOD I",
     "FI",
