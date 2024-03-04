@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md",
+                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md",
+                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md",
+                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md"
+                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md"
               }
             }
           },
@@ -170,8 +170,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "83510327355e1df9",
+  "active": "13fb827ac0482097",
   "lastOpenFiles": [
+    "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 3 - Definire operatori e strutture dati.md",
+    "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 2 - Esecuzione dei programmi Prolog - Liste ed operatori aritmetici.md",
+    "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 1 - I basilari del Prolog.md",
+    "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 3 - Ancora espressioni regolari, grammatiche.md",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 1 - Insiemi infiniti, Linguaggi.md",
@@ -181,7 +185,6 @@
     "FI",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 8 - Espressioni regolari e grammatiche di tipo 3.md",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 7 - Equivalenza tra ASFD e ASFND.md",
-    "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 5 - Automi.md",
     "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 1 - Un'introduzione informale agli algoritmi.md",
     "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",

@@ -67,7 +67,7 @@
 
 - Risponde alle query con true o false e assegna dei valori alle variabili
 
->Esempio: Famiglia
+>Esempio: Famigliadonnie
 >parent(annie, bill).
 >parent(annie, charlie).
 >parent(bill, donnie).

@@ -1,3 +1,4 @@
+
 ## Strutture Dati
 
 - Le strutture dati, anche complesse, sono alla base dei vari linguaggi di programmazione.
