@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
+                "file": "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 3 - Definire operatori e strutture dati.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
+                "file": "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 3 - Definire operatori e strutture dati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
+                "file": "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 3 - Definire operatori e strutture dati.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md"
+                "file": "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 3 - Definire operatori e strutture dati.md"
               }
             }
           },
@@ -158,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,6 +172,8 @@
   },
   "active": "13fb827ac0482097",
   "lastOpenFiles": [
+    "2o anno/Fondamenti di Informatica/MOD II/prove esame.pdf",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 3 - Modelli di macchine di Turing.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 2 - macchine di Turing.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
     "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 1 - I basilari del Prolog.md",
