@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 3 - Definire operatori e strutture dati.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 4 - Macchine non deterministiche.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 3 - Definire operatori e strutture dati.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 4 - Macchine non deterministiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 3 - Definire operatori e strutture dati.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 4 - Macchine non deterministiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 3 - Definire operatori e strutture dati.md"
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 4 - Macchine non deterministiche.md"
               }
             }
           },
@@ -172,14 +172,17 @@
   },
   "active": "13fb827ac0482097",
   "lastOpenFiles": [
-    "2o anno/Fondamenti di Informatica/MOD II/prove esame.pdf",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 3 - Modelli di macchine di Turing.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 4 - Macchine non deterministiche.md",
+    "2o anno/Sistemi Operativi e Reti/MOD II/Lezione 3 - I mezzi trasmissivi.md",
+    "2o anno/Sistemi Operativi e Reti/MOD II/Lezione 4 - Gli ISP e le reti dorsali di Internet.md",
+    "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 3 - Definire operatori e strutture dati.md",
+    "2o anno/Fondamenti di Informatica/MOD II/prove esame.pdf",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 2 - macchine di Turing.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
     "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 1 - I basilari del Prolog.md",
     "2o anno/Linguaggi e Metodologie di Programmazione/MOD I/Lezione 2 - Il linguaggio Java.md",
     "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
-    "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 3 - Definire operatori e strutture dati.md",
     "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 2 - Esecuzione dei programmi Prolog - Liste ed operatori aritmetici.md",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
