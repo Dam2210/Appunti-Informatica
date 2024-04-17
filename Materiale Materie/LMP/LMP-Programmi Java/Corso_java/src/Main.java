@@ -777,6 +777,204 @@ public class Main
 
          Metodi
          - Cosa sono i metodi
+         - Creiamo un semplice metodo void
+         - Parametri dei metodi
+         - il return
         */
+        /*
+        faiPasta();
+
+        cucinaPietanza("carne");
+
+        Add(3, 5);
+
+        int totale = Add2(7, 2);
+
+        System.out.println("il totale è: " + totale);
+    } //fine main
+
+    static void faiPasta() //il metodo deve stare fuori dal main che a sua volta è un metodo, void si usa nelle funzioni che non ritoranano valori di nessun tipo
+    {
+        System.out.println("Sto cucinando pasta");
+    }
+
+    static void cucinaPietanza(String cibo) //cibo è l'argomento del metodo e in questo caso è di tipo stringa, lo dovrò passare nelle parentesi quando richiamerò il metodo
+    {
+        System.out.println("sto cucinando " + cibo);
+    }
+
+    static void Add(int a, int b)
+    {
+        int add = a + b;
+        System.out.println("l'addizione tra " + a + " e " + b + " è: " + add);
+    }
+
+    static int Add2(int a, int b) //con int al posto di void dichiaro che questa funzione ritorna un int
+    {
+        int add = a + b;
+        return add; //ritorno il valore che sta in add
+    }
+    */
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 18
+
+         Overloads Methods
+         - Cosa sono: stesso metodo ripetuto più volte ma con un diverso tipo o con diversi argomenti (parametri)
+         - Creiamo diversi metodi con num param differenti
+         - Creiamo diversi metodi con tipi dato differenti
+        */
+        /*
+        //viene richiamato 3 volte il metodo add() solo con parametri diversi (signature) e quindi corrispondono tutte a un metodo diverso.
+        int doppioInt = add(2, 3);
+        int triploInt = add(5, 10, 9);
+        double doppioDouble = add(2.5, 6.3);
+
+        System.out.println("doppioInt: " + doppioInt);
+        System.out.println("triploInt: " + triploInt);
+        System.out.println("doppioDouble: " + doppioDouble);
+
+    } // fine main
+
+    static int add(int a, int b) //con int al posto di void dichiaro che questa funzione ritorna un int
+    {
+        int ris = a + b;
+        return ris; //ritorno il valore che sta in ris
+    }
+
+    static int add(int a, int b, int c) //con int al posto di void dichiaro che questa funzione ritorna un int
+    {
+        int ris = a + b + c;
+        return ris; //ritorno il valore che sta in ris
+    }
+
+    static double add(double a, double b) //con int al posto di void dichiaro che questa funzione ritorna un int
+    {
+        double ris = a + b;
+        return ris; //ritorno il valore che sta in ris
+    }
+    */
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 19
+
+         Introduzione Object Oriented Programming(OOP)
+         - Cos'è la programmazione ad oggetti
+         - Classi, metodi e attributi
+         - Classe con file esterno
+         - Cosa sono gli oggetti e le istanze di classe
+         - Usare attributi e metodi
+        //vedi la classe Persona.java
+        //USO LA SEZIONE 1 DELLA CLASSE Persona.java, CHE HO CREATO, IN QUESTA SEZIONE
+        */
+        /*
+        Persona persona1 = new Persona(); //creo l'ggetto persona1 di tipo Persona cioè la classe che ho creato in precedenza
+        Persona persona2 = new Persona(); //questa persona2 sarà una copia di persona1 in quanto utilizza attributi e metodi della stessa classe cioè Persona
+        //persona1 e persona2 sono due oggetti distinti anche se utilizzano la stessa classe con gli stessi metodi e attributi
+
+        System.out.println("nome persona1: " + persona1.nome);
+        System.out.println("nome persona2: " + persona2.nome);
+        persona1.saluta();
+        persona2.cammina();
+        */
+
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 20
+
+         Costruttori
+         - Cos'è un costruttore
+         - Creiamone uno
+         - Parola chiave 'this'
+         //vedi Persona.java
+         //Tutte queste cose le trovi aggiunte e spiegate sulla classe Persona.java
+        */
+        /*
+        Persona persona1 = new Persona("Damiano", "Folco", 21, "Rosso"); //valori tra parentesi passati tramite costruttore
+        Persona persona2 = new Persona("Mario", "Rossi", 20, "Giallo");
+
+        System.out.println("----- persona1 -----");
+        System.out.println("nome - " + persona1.nome);
+        System.out.println("cognome - " + persona1.cognome);
+        System.out.println("eta - " + persona1.eta);
+        System.out.println("colorePreferito - " + persona1.colorePreferito);
+        System.out.println();
+
+        System.out.println("----- persona2 -----");
+        System.out.println("nome - " + persona2.nome);
+        System.out.println("cognome - " + persona2.cognome);
+        System.out.println("eta - " + persona2.eta);
+        System.out.println("colorePreferito - " + persona2.colorePreferito);
+        */
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 21
+
+         Scope delle variabili
+         - Cos'è lo scope di una variabile - raggio d'azione in cui una variabile è disponibile nel codice
+         - Scope locale
+         - Scope globale
+         //tutto spiegato nella classe Persona.Java
+        */
+        /*
+        Persona persona1 = new Persona("Damiano", "Folco", 21, "Rosso");
+
+        persona1.saluta();
+        persona1.addizione(2, 3);
+        */
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 21
+
+         Overloaded Constructors
+         - Cosa sono?
+         - Creare class pizza
+         - Creare multipli costruttori
+         //vedi la classe Pizza.java
+         //creo la classe Pizza.java in cui ho più costruttori con lo stesso nome ma con parametri diversi che li differenziano (Overloaded Constructors)
+        */
+        /*
+        Pizza pizza1 = new Pizza("integrale", "pomodoro", "mozzarella", "ananas");
+        Pizza pizza2 = new Pizza("5 cereali");
+        Pizza pizza3 = new Pizza("normale", "pomodoro", "mozzarella");
+        */
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 22
+        */
+
     }
 }
+
+
+
+
+
+
+
+
+
