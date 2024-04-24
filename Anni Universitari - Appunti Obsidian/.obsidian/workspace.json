@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 3 - Ancora espressioni regolari, grammatiche.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 343.5
   },
   "right": {
     "id": "1f3c229512774f1e",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 3 - Ancora espressioni regolari, grammatiche.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 3 - Ancora espressioni regolari, grammatiche.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD I/Lezione 3 - Ancora espressioni regolari, grammatiche.md"
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md"
               }
             }
           },
@@ -162,16 +162,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false
     }
   },
   "active": "13fb827ac0482097",
   "lastOpenFiles": [
+    "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Esercizi",
+    "2o anno/Fondamenti di Informatica/MOD I/Lezione 3 - Ancora espressioni regolari, grammatiche.md",
+    "2o anno/Fondamenti di Informatica/MOD II",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 2 - Espressioni regolari, linguaggi e problemi.md",
     "2o anno/Fondamenti di Informatica/MOD I/Capitolo 0 - Fondamenti di informatica.md",
     "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 2.1 - Modelli di calcolo e notazione asintotica.md",
@@ -188,8 +193,6 @@
     "2o anno/Linguaggi e Metodologie di Programmazione/MOD I/Lezione 2 - Il linguaggio Java.md",
     "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 2 - Esecuzione dei programmi Prolog - Liste ed operatori aritmetici.md",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md",
-    "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
-    "2o anno/Fondamenti di Informatica/MOD I/Lezione 3 - Ancora espressioni regolari, grammatiche.md",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 1 - Insiemi infiniti, Linguaggi.md",
     "FI/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
     "FI/MOD I",
