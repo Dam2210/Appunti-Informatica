@@ -965,8 +965,29 @@ public class Main
 
         /*
          Sezione 22
+
+         Metodo toString
+         - Cos'è?: è un metodo che si può applicare di default a qualsiasi oggetto, in questo caso lo modifico nella calsse Persona
+
+         Per le modifiche vai al file della classe Persona
+        */
+        /*
+        Persona persona = new Persona("Damiano", "Folco", 21, "Rosso");
+
+        System.out.println(persona.toString());
+
+        System.out.println("-------------Senza toString-------------");
+
+        System.out.println(persona); //funziona anche senza il metodod toString, che viene usato di default
         */
 
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 23
+        */
     }
 }
 

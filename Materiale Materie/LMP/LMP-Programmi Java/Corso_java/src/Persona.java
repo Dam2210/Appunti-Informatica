@@ -64,6 +64,11 @@ public class Persona
         System.out.println("parametro passato: " + num); //stampo la variabile locale del metodo addizione
     }
 
+    public String toString()
+    {
+        String stringa = this.nome + "\n" + this.cognome + "\n" + this.eta + "\n"+ this.colorePreferito;
+        return stringa;
+    }
 }
 
 
