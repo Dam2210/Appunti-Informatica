@@ -887,7 +887,6 @@ public class Main
         */
 
 
-
         //----------------------------------------------------------------------------------------------------------------------------
 
 
@@ -987,6 +986,75 @@ public class Main
 
         /*
          Sezione 23
+         Array di oggetti
+         - Creare array di tipo ogetto vuoto
+         - Creare oggetti
+         - Assegnare oggetti come elementi array
+         - Accedere agli elementi
+         - Creare array con elementi già presenti
+        */
+
+        //Persona[] persone = new Persona[3]; //3 è la capacità dell'array
+        /*
+        Persona persona1 = new Persona("Damiano", "Folco", 21, "rosso"); //1o oggetto dell'array
+        Persona persona2 = new Persona("Mario", "Bellu", 85, "blu"); //2o oggetto dell'array
+        Persona persona3 = new Persona("Anna", "Neri", 25, "verde"); //3o oggetto dell'array
+
+        Persona[] persone = {persona1, persona2, persona3};
+        //assegno gli oggetti all'array
+        //persone[0] = persona1;
+        //persone[1] = persona2;
+        //persone[2] = persona3;
+
+        System.out.println(persone[0]);
+        */
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 24
+         Passare oggetti come parametri - vai alla classe Persona nel metodo saluta2.
+        */
+        /*
+        Persona persona1 = new Persona("Damiano", "Folco", 21, "rosso");
+        Persona persona2 = new Persona("Anna", "Neri", 24, "verde");
+
+        //Damiano vuole salutare anna e usa il metodo saluta2
+
+        persona1.saluta2(persona2); //Damiano saluta Anna
+        persona2.saluta2(persona1); //Anna saluta Damiano
+        */
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 25
+         Final e static keyword
+         - final: la variabile è nel suo stato finale e non può essere riassegnata
+         - static: variabile aggiunta alla classe Persona, questa è uguale per ogni istanza della classe
+        */
+        /*
+        final int num = 5; //con final la variabile num non può essere riassegnata in quanto è nel suo stato finale
+        //num = 7; questo con final non si può fare
+
+        Persona persona1 = new Persona("Damiano", "Folco", 21, "rosso");
+        Persona persona2 = new Persona("Anna", "Neri",  30, "verde");
+
+        System.out.println("numero persone: " + Persona.numeroPersone); //per accedere alla variabile static devo richimare la classe Persona
+
+        Persona.mostraNumPersone(); //richiamo un metodo static presente nella classe Persona
+        */
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 26
         */
     }
 }

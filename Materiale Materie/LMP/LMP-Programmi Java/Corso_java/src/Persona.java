@@ -34,6 +34,7 @@ public class Persona
     String cognome;
     int eta;
     String colorePreferito;
+    static int numeroPersone; //attributo con static, questo è uguale per ogni istanza mentre gli altri attributi variano da istanza a istanza
 
     //Qui creo il costruttore che definisce i dati, passati tramite parametri, agli oggetti di tipo Persona che crei in Main.java
     Persona(String nome, String cognome, int eta, String colorePreferito) // quando scrivo new Persona() attivo questo metodo o meglio costruttore con dentro tutti i parametri che devo riempire
@@ -43,13 +44,16 @@ public class Persona
         this.cognome = cognome;
         this.eta = eta;
         this.colorePreferito = colorePreferito;
+        numeroPersone++; //incremento la variabile numeroPersone
     }
 
+    /*
     void saluta() //questo è un metodo
     {
         //int prova = 5; - le variabili dentro i metodi sono variabili locali
         System.out.println("ciao sono " + this.nome); //accedo alla variabile globale nome da dentro al metodo senza problemi
     }
+    */
 
     void addizione(int a, int b)
     {
@@ -68,6 +72,16 @@ public class Persona
     {
         String stringa = this.nome + "\n" + this.cognome + "\n" + this.eta + "\n"+ this.colorePreferito;
         return stringa;
+    }
+
+    void saluta2(Persona PersonaDaSalutare) //con questo metodo una persona saluta un altra, passo per parametro la persona che voglio salutare
+    {
+        System.out.println("Ciao " + PersonaDaSalutare.nome + ", io sono " + this.nome);
+    }
+
+    static void mostraNumPersone() //metodo statico che mostra quante persone sono state create
+    {
+        System.out.println("Persone create: " + numeroPersone);
     }
 }
 

@@ -33,3 +33,4 @@ $$
 $$
 
 
+## Es2. Ricevendo in input k parole conta 
