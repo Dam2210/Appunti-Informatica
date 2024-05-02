@@ -32,28 +32,26 @@ public class Persona
     */
     String nome; //le variabili fuori dai metodi sono variabili globali
     String cognome;
-    int eta;
-    String colorePreferito;
+    //int eta; //leva il commento in età e colorePreferito in caso servisse
+    //String colorePreferito;
     static int numeroPersone; //attributo con static, questo è uguale per ogni istanza mentre gli altri attributi variano da istanza a istanza
 
     //Qui creo il costruttore che definisce i dati, passati tramite parametri, agli oggetti di tipo Persona che crei in Main.java
-    Persona(String nome, String cognome, int eta, String colorePreferito) // quando scrivo new Persona() attivo questo metodo o meglio costruttore con dentro tutti i parametri che devo riempire
+    Persona(String nome, String cognome) // int eta, String colorePreferito) // quando scrivo new Persona() attivo questo metodo o meglio costruttore con dentro tutti i parametri che devo riempire
     {
         //uso la parola chiave this, in questi casi, per associare i parametri in entrata della funzione ai relativi attributi di Persona
         this.nome = nome;
         this.cognome = cognome;
-        this.eta = eta;
-        this.colorePreferito = colorePreferito;
+        //this.eta = eta;
+        //this.colorePreferito = colorePreferito;
         numeroPersone++; //incremento la variabile numeroPersone
     }
 
-    /*
     void saluta() //questo è un metodo
     {
         //int prova = 5; - le variabili dentro i metodi sono variabili locali
         System.out.println("ciao sono " + this.nome); //accedo alla variabile globale nome da dentro al metodo senza problemi
     }
-    */
 
     void addizione(int a, int b)
     {
@@ -70,7 +68,7 @@ public class Persona
 
     public String toString()
     {
-        String stringa = this.nome + "\n" + this.cognome + "\n" + this.eta + "\n"+ this.colorePreferito;
+        String stringa = this.nome + "\n" + this.cognome; //+ "\n" + this.eta + "\n"+ this.colorePreferito;
         return stringa;
     }
 

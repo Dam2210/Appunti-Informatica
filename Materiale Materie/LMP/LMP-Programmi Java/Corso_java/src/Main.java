@@ -1055,6 +1055,64 @@ public class Main
 
         /*
          Sezione 26
+         Ereditarietà
+         - cos'è l'ereditarietà: meccanismo che permette ad una classe di derivare da un altra classe ed ereditarne metodi e attributi
+         - creiamo classi figlie studente e insegnante
+         - metodi e attributi aggiuntivi
+         - overriding dei metodi (@Override) - sovrascrive un metodo, vai nella classe Insegnate o Studente
+         - costruire classi figlie e super keyword
+         Ho creato due nuove classi per questa sezione Studente e Insegnante.
+         Studente e Insegnante ereditano metodi e attributi di Persona, vai a vedere le classi citate per capire come.
+         Ho tolto dalla classe Persona nel costruttore l'età e il colorePreferito, in caso servisse riaggiungili
+        */
+        /*
+        Persona persona1 = new Persona("Damiano", "Folco");
+        System.out.println("-------------------Persona----------------------");
+        persona1.saluta();
+
+        Studente studente1 = new Studente("Anna", "Neri", "Storia");
+        System.out.println("-------------------Studente----------------------");
+        studente1.saluta();
+        studente1.studia();
+        System.out.println(studente1.materiaPreferita);
+
+
+        Insegnante insegnante1 = new Insegnante("Mario", "Verdi", "Matematica");
+        System.out.println("-----------------Insegnante------------------------");
+        insegnante1.saluta();
+        insegnante1.insegna();
+        System.out.println(insegnante1.materia);
+
+        System.out.println("-----------------------------------------");
+        System.out.println("numero persone create: " + Persona.numeroPersone);
+        */
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 27
+         Classi Astratte
+         - Cosa sono?: classi ristrette che non possono essere utilizzate per creare degli oggetti, create esclusivamente per essere ereditate da altre classi
+         - Creare classe astratta Veicolo
+         - Creare classi figlie Macchina
+         - Metodi astratti
+         Vedi classi Veicolo e Macchina
+        */
+        /*
+        //Veicolo veicolo = new Veicolo(); //con la classe astratta Veicolo non posso creare oggetti, infatti questa linea da errore
+        Macchina macchina = new Macchina(); //con la classe Macchina che eredita la classe astratta veicolo invece posso creare oggetti
+        macchina.muovi();
+        macchina.frena();
+        */
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 28
         */
     }
 }
