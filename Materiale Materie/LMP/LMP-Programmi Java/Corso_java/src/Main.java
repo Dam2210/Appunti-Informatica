@@ -987,7 +987,7 @@ public class Main
         /*
          Sezione 23
          Array di oggetti
-         - Creare array di tipo ogetto vuoto
+         - Creare array di tipo oggetto vuoto
          - Creare oggetti
          - Assegnare oggetti come elementi array
          - Accedere agli elementi
@@ -1113,6 +1113,7 @@ public class Main
 
         /*
          Sezione 28
+         //continua in Pacchetto1-Pacchetto2
         */
     }
 }
