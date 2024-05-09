@@ -81,7 +81,22 @@ public class Main
 
         /*
          Sezione 31
+         Interfacce: simile ad una classe astratta ma aggiunge funzionalità extra alle classi create
+         Creo 3 nuove classi: Leone, Pesce e Gazzella
+         Creo inoltre 2 interfacce: Preda e Predatore
+         vedi tutti questi nuovi elementi per i chiarimenti su cosa fanno
         */
+
+        Leone leone = new Leone();
+        Gazzella gazzella = new Gazzella();
+        Pesce pesceGrosso = new Pesce();
+        Pesce pescePiccolo = new Pesce();
+
+        leone.caccia();
+        gazzella.scappa();
+        pesceGrosso.caccia();
+        pescePiccolo.scappa();
+
 
     }
 }
