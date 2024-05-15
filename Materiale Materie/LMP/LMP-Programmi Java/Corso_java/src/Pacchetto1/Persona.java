@@ -43,4 +43,9 @@ public class Persona
     {
         this.copy(persona);
     }
+
+    public void saluta()
+    {
+        System.out.println("Ciao");
+    }
 }

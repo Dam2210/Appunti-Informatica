@@ -1,6 +1,9 @@
 package Pacchetto1;
 import Pacchetto2.*;
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class Main
 {
     public static void main(String[] args)
@@ -86,7 +89,7 @@ public class Main
          Creo inoltre 2 interfacce: Preda e Predatore
          vedi tutti questi nuovi elementi per i chiarimenti su cosa fanno
         */
-
+        /*
         Leone leone = new Leone();
         Gazzella gazzella = new Gazzella();
         Pesce pesceGrosso = new Pesce();
@@ -96,7 +99,83 @@ public class Main
         gazzella.scappa();
         pesceGrosso.caccia();
         pescePiccolo.scappa();
+        */
 
 
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 32
+         Polimorfismo/Polymorphism:
+         capacità di un oggetto di identificarsi con più tipi di dato
+         creo le classi Studente2, Insegnate2 e uso anche la classe Persona
+         */
+        /*
+        Studente2 studente1 = new Studente2("Damiano", "Folco");
+        Studente2 studente2 = new Studente2("Marco", "Rossi");
+        Insegnate2 insegnate1 = new Insegnate2("Anna", "Neri");
+        //gli studenti e gli insegnati oltre ad essere di tipo Studente2 e Insegnate2 sono entrambi di tipo Persona
+
+        Persona[] classe = {studente1, studente2, insegnate1}; //uso la classe persona per fare l'array in quanto è quella classe che accomuna Studente2 e Insegnate2
+                                                                //Questo è l'uso del polimorfismo
+
+        for(Persona persona : classe)
+        {
+            System.out.print(persona.getNome() + ": ");
+            persona.saluta();
+        }
+        */
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 33
+         Exception handling
+         esempi con ArithmetichException e InputMismatchException
+         try catch e finally
+        */
+        /*
+        Scanner scanner = new Scanner(System.in);
+
+        try
+        {
+            System.out.println("Inserire un numero: ");
+            int x = scanner.nextInt();
+
+            System.out.println("Inserire il secondo numero: ");
+            int y = scanner.nextInt();
+
+            int result = x/y;
+            System.out.println("risultato:" + result);
+        }
+        catch(ArithmeticException e) //gestiamo l'errore in caso l'utente divida un numero per 0
+        {
+            System.out.println("non puoi dividere per 0");
+        }
+        catch(InputMismatchException e) //gestiamo l'errore in caso l'utente utilizzi una stringa al posto di un numero per fare la divisione
+        {
+            System.out.println("non puoi dividere per una stringa");
+        }
+        catch(Exception e) //gestiamo l'errore in caso l'utente faccia qualcosa che non va fatto
+        {
+            System.out.println("c'è stato un problema");
+        }
+        finally
+        {
+            System.out.println("eseguito comunque"); //messaggio che viene eseguito a fine codice anche in presenza di errori
+            scanner.close();
+        }
+        */
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 34
+        */
     }
 }
