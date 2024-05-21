@@ -1,13 +1,10 @@
 package Pacchetto1;
-import Pacchetto2.*;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import java.io.*;
 
 public class Main
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) throws FileNotFoundException {
         /*
          Sezione 28
          Modificatori di accesso
@@ -176,6 +173,64 @@ public class Main
 
         /*
          Sezione 34
+         Lavorare con i file
+         - verificare se il file esiste nel progetto o nel computer
+         - getPath, getAbsolutePath, isFile
+         - eliminare file
+         - scrivere in un file con filewriter: write e append
+         - leggere un file con filereader
         */
+        /*
+        File file = new File("Corso_java/prova.txt");
+
+        if(file.exists())
+        {
+            System.out.println("il file esiste");
+            System.out.println(file.getPath());
+            System.out.println(file.getAbsolutePath());
+            System.out.println(file.isFile());
+            //file.delete(); //elimina il file
+        }
+        else
+        {
+            System.out.println("il file non esiste");
+        }
+
+        try
+        {
+            FileWriter writer = new FileWriter("Corso_java/prova2.txt");
+            writer.write("Ciao sono Damiano \n sto scrivendo nel file");
+            writer.append("\n aggiungo una riga");
+            writer.close();
+        }
+        catch (IOException e)
+        {
+            throw new RuntimeException(e);
+        }
+
+        try {
+            FileReader reader = new FileReader("Corso_java/prova2.txt");
+            int data = reader.read();
+
+            while (data != -1)
+            {
+                System.out.print((char)data);
+                data = reader.read();
+            }
+
+        }
+        catch (IOException e)
+        {
+            throw new RuntimeException(e);
+        }
+        */
+
+
+        //----------------------------------------------------------------------------------------------------------------------------
+
+
+        /*
+         Sezione 35
+        /*
     }
 }
