@@ -231,6 +231,6 @@ public class Main
 
         /*
          Sezione 35
-        /*
+        */
     }
 }
