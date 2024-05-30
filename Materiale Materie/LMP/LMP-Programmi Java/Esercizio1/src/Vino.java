@@ -1,5 +1,5 @@
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Vino {
@@ -165,16 +165,66 @@ public class Vino {
         int n_bott = scanner.nextInt();
         scanner.nextLine();
 
+        scanner.close();
+
         Vino vino = new Vino(nome, colore, colore_bacca, cantina, anno_bottiglia, persistenza, acid, equilibrio, n_bott);
 
         return vino;
     }
 
-    public static void stampaArray(List<Vino> vini)
+    public static void stampaCantina(List<Vino> cantina)
     {
         System.out.println("i vini inseriti sono: \n");
-        for (Vino vino : vini) {
-            System.out.println(vino);
+        for (Vino vino : cantina)
+        {
+            for(int i = 0; i < cantina.size(); i++)
+            {
+                System.out.println("----------- vino " + i + ": ------------------------");
+                System.out.println(vino);
+            }
+
         }
+    }
+
+    public static void richiestaVino(List<Vino> cantina)
+    {
+        Scanner scanner1 = new Scanner(System.in);
+
+        System.out.println("Che tipo di vino vuoi richiedere? tra i seguenti?: ");
+        int i = 0;
+        for(Vino vino : cantina)
+        {
+            System.out.println(i + ": " + vino.nome);
+            i++;
+        }
+        System.out.println("digita il numero associato al tipo di vino che vuoi ordinare:");
+        int num_vino = scanner1.nextInt();
+        scanner1.nextLine();
+
+        System.out.println("Quante bottiglie ne vuoi ordinare?: ");
+        int richiesta = scanner1.nextInt();
+        scanner1.nextLine();
+
+        for(int j = 0; j < cantina.size(); j++)
+        {
+            if(Objects.equals(j, num_vino))
+            {
+                if(cantina.get(i).n_bott == 0)
+                {
+                    System.out.println("il vino non è disponibile.");
+                }
+                else if(richiesta > cantina.get(i).n_bott)
+                {
+                    System.out.println("il numero delle bottiglie richieste è maggiore rispetto alle bottiglie che sono in cantina.");
+                }
+                else
+                {
+                    cantina.get(i).n_bott = cantina.get(i).n_bott - richiesta;
+                    System.out.println("il vino è stato ordinato con successo :)");
+                }
+            }
+        }
+        scanner1.close();
+
     }
 }

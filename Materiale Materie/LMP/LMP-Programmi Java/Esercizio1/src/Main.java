@@ -62,19 +62,24 @@ public class Main
         int richiesta = 1;
         */
 
-        List<Vino> vini = new ArrayList<Vino>();
+        List<Vino> cantina = new ArrayList<>();
 
         for(int i = 0; i < 1; i++)
         {
             Vino vino = Vino.scanVino();
-            vini.add(vino);
+            cantina.add(vino);
         }
 
-        System.out.println("vino 1: \n" + vini.get(0).toString());
 
-        Vino.stampaArray(vini);
+        Vino.stampaCantina(cantina);
 
-        //Vino.stampaArray(vini);
+        Vino.richiestaVino(cantina);
+
+
+
+        Vino.stampaCantina(cantina);
+
+
 
 
     }
