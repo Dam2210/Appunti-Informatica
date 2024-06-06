@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md"
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md"
               }
             }
           },
@@ -170,8 +170,9 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "83510327355e1df9",
+  "active": "9810ccc9a068ba54",
   "lastOpenFiles": [
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
     "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 19 - Caratterizzazione della classe NP.md",
     "2o anno/Fondamenti di Informatica/MOD II/Merge_img.pdf",
@@ -179,7 +180,6 @@
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 20 - Teorema di Cook-Levin.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 21 - NP completezza.md",
     "2o anno/Fondamenti di Informatica/MOD II/merge_FI_MODII.pdf",
-    "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
     "2o anno/Fondamenti di Informatica/MOD II/img/img0.png",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 13 - Funzioni time e space-constructible e specifiche classi di complessità.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 18 - Classe NP.md",
