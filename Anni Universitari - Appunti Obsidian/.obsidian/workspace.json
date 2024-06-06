@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md"
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md"
               }
             }
           },
@@ -170,8 +170,9 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "9810ccc9a068ba54",
+  "active": "83510327355e1df9",
   "lastOpenFiles": [
+    "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 19 - Caratterizzazione della classe NP.md",
     "2o anno/Fondamenti di Informatica/MOD II/Merge_img.pdf",
     "2o anno/Fondamenti di Informatica/MOD II/png2pdf.pdf",
@@ -199,7 +200,6 @@
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 6 - Accettabilità, decidibilità e calcolabilità.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 5 - La macchina di Turing Universale.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 4 - Struttura di P e macchine non deterministiche.md",
-    "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
     "2o anno/Fondamenti di Informatica/MOD II/img/img9.png",
     "2o anno/Fondamenti di Informatica/MOD II/img/img8.png",
     "2o anno/Fondamenti di Informatica/MOD II/img/img7.png",
