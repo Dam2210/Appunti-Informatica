@@ -11,11 +11,9 @@
             "id": "13fb827ac0482097",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
-                "mode": "source",
-                "source": false
+                "file": "2o anno/Fondamenti di Informatica/MOD II/merge_FI_MODII.pdf"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/merge_FI_MODII.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/merge_FI_MODII.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md"
+                "file": "2o anno/Fondamenti di Informatica/MOD II/merge_FI_MODII.pdf"
               }
             }
           },
@@ -172,35 +170,50 @@
   },
   "active": "13fb827ac0482097",
   "lastOpenFiles": [
-    "2o anno/Fondamenti di Informatica/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
-    "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
-    "2o anno/Fondamenti di Informatica/MOD II/Esercizi",
-    "2o anno/Fondamenti di Informatica/MOD I/Lezione 3 - Ancora espressioni regolari, grammatiche.md",
-    "2o anno/Fondamenti di Informatica/MOD II",
-    "2o anno/Fondamenti di Informatica/MOD I/Lezione 2 - Espressioni regolari, linguaggi e problemi.md",
+    "2o anno/Fondamenti di Informatica/MOD I/Lezione 1 - Insiemi infiniti, Linguaggi.md",
     "2o anno/Fondamenti di Informatica/MOD I/Capitolo 0 - Fondamenti di informatica.md",
-    "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 2.1 - Modelli di calcolo e notazione asintotica.md",
-    "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
-    "2o anno/Fondamenti di Informatica/MOD II/Lezione 3 - Modelli di macchine di Turing.md",
-    "2o anno/Fondamenti di Informatica/MOD II/Lezione 4 - Macchine non deterministiche.md",
-    "2o anno/Sistemi Operativi e Reti/MOD II/Lezione 3 - I mezzi trasmissivi.md",
-    "2o anno/Sistemi Operativi e Reti/MOD II/Lezione 4 - Gli ISP e le reti dorsali di Internet.md",
-    "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 3 - Definire operatori e strutture dati.md",
-    "2o anno/Fondamenti di Informatica/MOD II/prove esame.pdf",
+    "2o anno/Fondamenti di Informatica/MOD II/Th - Dimostrazioni.md",
+    "2o anno/Fondamenti di Informatica/MOD II/merge_FI_MODII.pdf",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 21 - NP completezza.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 20 - Teorema di Cook-Levin.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 19 - Caratterizzazione della classe NP.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 18 - Classe NP.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 17 - Complessità di problemi.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 16 - Problemi e codifiche.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 15 - Classi Complemento.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 14 - Riduzioni polinomiali.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 13 - Funzioni time e space-constructible e specifiche classi di complessità.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 12 - Classi di complessità.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 10 - Riduzioni.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 9 - Halting Problem.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 8 - Equivalenza PascalMinimo mdT U.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 7 - Tesi di Church-Turing e Turing-equivalenza.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 6 - Accettabilità, decidibilità e calcolabilità.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 5 - La macchina di Turing Universale.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 4 - Struttura di P e macchine non deterministiche.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 3 - Equivalenza dei modelli delle macchine di Turing.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 2 - macchine di Turing.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
-    "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 1 - I basilari del Prolog.md",
-    "2o anno/Linguaggi e Metodologie di Programmazione/MOD I/Lezione 2 - Il linguaggio Java.md",
-    "2o anno/Linguaggi e Metodologie di Programmazione/MOD II/Lezione 2 - Esecuzione dei programmi Prolog - Liste ed operatori aritmetici.md",
-    "2o anno/Fondamenti di Informatica/MOD I/Lezione 6 - ASF.md",
-    "2o anno/Fondamenti di Informatica/MOD I/Lezione 1 - Insiemi infiniti, Linguaggi.md",
-    "FI/MOD I/Lezione 4 - Ancora sulle grammatiche.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
+    "2o anno/Fondamenti di Informatica/MOD II/img/img9.png",
+    "2o anno/Fondamenti di Informatica/MOD II/img/img8.png",
+    "2o anno/Fondamenti di Informatica/MOD II/img/img7.png",
+    "2o anno/Fondamenti di Informatica/MOD II/img/img6.png",
+    "2o anno/Fondamenti di Informatica/MOD II/img/img5.png",
+    "2o anno/Fondamenti di Informatica/MOD II/img/img4.png",
+    "2o anno/Fondamenti di Informatica/MOD II/img/img3.png",
+    "2o anno/Fondamenti di Informatica/MOD II/img/img2.png",
+    "2o anno/Fondamenti di Informatica/MOD II/img/img19.png",
+    "2o anno/Fondamenti di Informatica/MOD II/img/img18.png",
+    "2o anno/Fondamenti di Informatica/MOD II/img",
+    "2o anno/Fondamenti di Informatica/MOD II/MOD II/img",
+    "2o anno/Fondamenti di Informatica/MOD II/MOD II/Th - Dimostrazioni.md",
+    "2o anno/Fondamenti di Informatica/MOD II/MOD II/Lezione 9 - Halting Problem.md",
+    "2o anno/Fondamenti di Informatica/MOD II/MOD II",
+    "2o anno/Fondamenti di Informatica/MOD II/Esercizi",
+    "2o anno/Fondamenti di Informatica/MOD II",
+    "2o anno/Fondamenti di Informatica/MOD II/prove esame.pdf",
     "FI/MOD I",
-    "FI",
-    "2o anno/Fondamenti di Informatica/MOD I/Lezione 8 - Espressioni regolari e grammatiche di tipo 3.md",
-    "2o anno/Fondamenti di Informatica/MOD I/Lezione 7 - Equivalenza tra ASFD e ASFND.md",
-    "2o anno/Fondamenti di Informatica/MOD I/Lezione 5 - Automi.md",
-    "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 1 - Un'introduzione informale agli algoritmi.md",
-    "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 11.2 - Strutture dati per rappresentare grafi.md"
+    "FI"
   ]
 }

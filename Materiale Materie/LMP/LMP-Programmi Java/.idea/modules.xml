@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Esercizio-ScuolaSuperiore/Esercizio-ScuolaSuperiore.iml" filepath="$PROJECT_DIR$/Esercizio-ScuolaSuperiore/Esercizio-ScuolaSuperiore.iml" />
       <module fileurl="file://$PROJECT_DIR$/Esercizio1/Esercizio1.iml" filepath="$PROJECT_DIR$/Esercizio1/Esercizio1.iml" />
       <module fileurl="file://$PROJECT_DIR$/LMP-Programmi Java.iml" filepath="$PROJECT_DIR$/LMP-Programmi Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scuo/Scuo.iml" filepath="$PROJECT_DIR$/Scuo/Scuo.iml" />
     </modules>
   </component>
 </project>
