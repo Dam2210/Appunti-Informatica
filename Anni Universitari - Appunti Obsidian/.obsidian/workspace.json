@@ -8,12 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "13fb827ac0482097",
+            "id": "9810ccc9a068ba54",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/merge_FI_MODII.pdf"
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/merge_FI_MODII.pdf",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/merge_FI_MODII.pdf",
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/merge_FI_MODII.pdf"
+                "file": "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md"
               }
             }
           },
@@ -168,21 +170,27 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "13fb827ac0482097",
+  "active": "9810ccc9a068ba54",
   "lastOpenFiles": [
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 19 - Caratterizzazione della classe NP.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Merge_img.pdf",
+    "2o anno/Fondamenti di Informatica/MOD II/png2pdf.pdf",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 20 - Teorema di Cook-Levin.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 21 - NP completezza.md",
+    "2o anno/Fondamenti di Informatica/MOD II/merge_FI_MODII.pdf",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
+    "2o anno/Fondamenti di Informatica/MOD II/img/img0.png",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 13 - Funzioni time e space-constructible e specifiche classi di complessità.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 18 - Classe NP.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 3 - Equivalenza dei modelli delle macchine di Turing.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 2 - macchine di Turing.md",
+    "2o anno/Fondamenti di Informatica/MOD II/Th - Dimostrazioni.md",
     "2o anno/Fondamenti di Informatica/MOD I/Lezione 1 - Insiemi infiniti, Linguaggi.md",
     "2o anno/Fondamenti di Informatica/MOD I/Capitolo 0 - Fondamenti di informatica.md",
-    "2o anno/Fondamenti di Informatica/MOD II/Th - Dimostrazioni.md",
-    "2o anno/Fondamenti di Informatica/MOD II/merge_FI_MODII.pdf",
-    "2o anno/Fondamenti di Informatica/MOD II/Lezione 21 - NP completezza.md",
-    "2o anno/Fondamenti di Informatica/MOD II/Lezione 20 - Teorema di Cook-Levin.md",
-    "2o anno/Fondamenti di Informatica/MOD II/Lezione 19 - Caratterizzazione della classe NP.md",
-    "2o anno/Fondamenti di Informatica/MOD II/Lezione 18 - Classe NP.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 17 - Complessità di problemi.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 16 - Problemi e codifiche.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 15 - Classi Complemento.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 14 - Riduzioni polinomiali.md",
-    "2o anno/Fondamenti di Informatica/MOD II/Lezione 13 - Funzioni time e space-constructible e specifiche classi di complessità.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 12 - Classi di complessità.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 10 - Riduzioni.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 9 - Halting Problem.md",
@@ -191,9 +199,6 @@
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 6 - Accettabilità, decidibilità e calcolabilità.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 5 - La macchina di Turing Universale.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 4 - Struttura di P e macchine non deterministiche.md",
-    "2o anno/Fondamenti di Informatica/MOD II/Lezione 3 - Equivalenza dei modelli delle macchine di Turing.md",
-    "2o anno/Fondamenti di Informatica/MOD II/Lezione 2 - macchine di Turing.md",
-    "2o anno/Fondamenti di Informatica/MOD II/Lezione 1 - Introduzione.md",
     "2o anno/Fondamenti di Informatica/MOD II/Esercizi/Esercizi MOD II.md",
     "2o anno/Fondamenti di Informatica/MOD II/img/img9.png",
     "2o anno/Fondamenti di Informatica/MOD II/img/img8.png",
@@ -204,16 +209,13 @@
     "2o anno/Fondamenti di Informatica/MOD II/img/img3.png",
     "2o anno/Fondamenti di Informatica/MOD II/img/img2.png",
     "2o anno/Fondamenti di Informatica/MOD II/img/img19.png",
-    "2o anno/Fondamenti di Informatica/MOD II/img/img18.png",
     "2o anno/Fondamenti di Informatica/MOD II/img",
     "2o anno/Fondamenti di Informatica/MOD II/MOD II/img",
     "2o anno/Fondamenti di Informatica/MOD II/MOD II/Th - Dimostrazioni.md",
-    "2o anno/Fondamenti di Informatica/MOD II/MOD II/Lezione 9 - Halting Problem.md",
     "2o anno/Fondamenti di Informatica/MOD II/MOD II",
     "2o anno/Fondamenti di Informatica/MOD II/Esercizi",
     "2o anno/Fondamenti di Informatica/MOD II",
     "2o anno/Fondamenti di Informatica/MOD II/prove esame.pdf",
-    "FI/MOD I",
-    "FI"
+    "FI/MOD I"
   ]
 }

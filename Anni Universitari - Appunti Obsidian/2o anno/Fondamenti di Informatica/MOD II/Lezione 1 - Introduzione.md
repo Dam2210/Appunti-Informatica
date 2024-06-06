@@ -52,11 +52,11 @@ Le caratteristiche individuate, indicano come istruzione elementare un'operazion
 Vogliamo quindi progettare un procedimento che risolva questo problema. Siccome calcolare la somma di due interi è facile, potremmo pensare che l'istruzione "calcola $n+k$" sia un'*istruzione elementare*, ma se assegnassimo $n=37895$ e $k=441238$, a nessuno viene in mente il risultato, questo perché la nostra memoria è limitata. 
 Per le somme tra i numeri da 0 a 9 abbiamo a suo tempo imparato una tabella simile
 
-![[FI/MOD II/img/img0.png|center|500]]
+![[img/img0.png|center|500]]
 
 quindi basterebbe una tabella sufficientemente grande per risolvere l'istanza sopra, ad esempio la somma dei numeri tra 0 e 100000.
 
-![[FI/MOD II/img/img1.png|center|500]]
+![[img/img1.png|center|500]]
 
 Questo sembrerebbe corretto per risolvere l'istanza data, ma per risolvere il problema somma, occorre indicare un *procedimento* che sappia addizionare **qualunque coppia di numeri naturali**, e questo comporterebbe quindi la costruzione di una tabella infinita, per questo motivo l'istruzione "calcola $n+k$" non può essere definita *elementare*.
 
