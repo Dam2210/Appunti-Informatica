@@ -11,11 +11,9 @@
             "id": "9810ccc9a068ba54",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 13 - Funzioni time e space-constructible e specifiche classi di complessità.md",
-                "mode": "source",
-                "source": false
+                "file": "2o anno/Sistemi Operativi e Reti/MOD I/MergeSOR.pdf"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 13 - Funzioni time e space-constructible e specifiche classi di complessità.md",
+                "file": "2o anno/Sistemi Operativi e Reti/MOD I/MergeSOR.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 13 - Funzioni time e space-constructible e specifiche classi di complessità.md",
+                "file": "2o anno/Sistemi Operativi e Reti/MOD I/MergeSOR.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Fondamenti di Informatica/MOD II/Lezione 13 - Funzioni time e space-constructible e specifiche classi di complessità.md"
+                "file": "2o anno/Sistemi Operativi e Reti/MOD I/MergeSOR.pdf"
               }
             }
           },
@@ -172,6 +170,7 @@
   },
   "active": "9810ccc9a068ba54",
   "lastOpenFiles": [
+    "2o anno/Fondamenti di Informatica/MOD II/Lezione 13 - Funzioni time e space-constructible e specifiche classi di complessità.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 6 - Accettabilità, decidibilità e calcolabilità.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 9 - Halting Problem.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 8 - Equivalenza PascalMinimo mdT U.md",
@@ -185,7 +184,6 @@
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 21 - NP completezza.md",
     "2o anno/Fondamenti di Informatica/MOD II/merge_FI_MODII.pdf",
     "2o anno/Fondamenti di Informatica/MOD II/img/img0.png",
-    "2o anno/Fondamenti di Informatica/MOD II/Lezione 13 - Funzioni time e space-constructible e specifiche classi di complessità.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 18 - Classe NP.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 3 - Equivalenza dei modelli delle macchine di Turing.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 2 - macchine di Turing.md",
