@@ -145,5 +145,7 @@ int main(int argc, char* argv[])
     pthread_join(p2,NULL);
     pthread_join(p3,NULL);
 
+    pthread_mutex_destroy(&mutex);
+    pthread_cond_destroy(&cond);
     return 0;
 }
