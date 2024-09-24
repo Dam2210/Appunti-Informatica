@@ -43,7 +43,7 @@ int main()
 
     //creo il file passando come parametro il nome del file e i permessi di scrittura
     //0700 indica che il file è visibile solo al proprietario e che può essere scritto e letto
-    int fd = creat(fileName, 0700); //fd è un intero che conterrà il file descriptor ovvero l'identificativo del file
+    int fd = create(fileName, 0700); //fd è un intero che conterrà il file descriptor ovvero l'identificativo del file
     close(fd);
     printf("[Padre] - Ho creato e chiuso il file\n");
 

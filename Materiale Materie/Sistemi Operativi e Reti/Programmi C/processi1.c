@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <signal.h>
 #include <unistd.h>
-#include <time.h>
+#include <time.h> 
 #include <sys/wait.h>
 
 //definizione della costante READ con il valore 0

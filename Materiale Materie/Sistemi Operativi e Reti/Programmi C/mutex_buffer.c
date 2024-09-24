@@ -10,6 +10,7 @@
 #include<pthread.h>
 #include<unistd.h>
 
+
 #define BUFFER_SIZE 10 //definisco la dimensione del buffer
 
 int buffer[BUFFER_SIZE] = {0,0,0,0,0,0,0,0,0,0}; //inizializzo buffer con gli zeri
@@ -35,7 +36,7 @@ void StampaBuffer()
     for(int i=0; i<BUFFER_SIZE; i++)
     {
         printf("[%d]--->%d\n", i, buffer[i]);
-    }
+    } 
 }
 
 void *primaFunzione()
@@ -85,7 +86,8 @@ void *secondaFunzione(){
 }
 
 //metodo che verrà eseguito dal terzo thread 
-void *terzaFunzione(){
+void *terzaFunzione()
+{
 
     //blocco il mutex
     pthread_mutex_lock(&mutex);
@@ -116,7 +118,9 @@ void *terzaFunzione(){
 
         if(buffer[i] == 1){
             contatorePositivi++;
-        }else{
+        }
+        else
+        {
             contatoreNegativi++;
         }
     }
@@ -129,14 +133,15 @@ void *terzaFunzione(){
 
 int main(int argc, char* argv[])
 {
+    srand(time(NULL));
 
     //istanzio i 3 thread
     pthread_t p1,p2,p3;
 
     //creo i 3 thread assegnando ad ognuno la propria funzione da eseguire
-    pthread_create(&p1,NULL,&primaFunzione,NULL);
-    pthread_create(&p2,NULL,&secondaFunzione,NULL);
-    pthread_create(&p3,NULL,&terzaFunzione,NULL);
+    pthread_create(&p1,NULL,primaFunzione,NULL);
+    pthread_create(&p2,NULL,secondaFunzione,NULL);
+    pthread_create(&p3,NULL,terzaFunzione,NULL);
 
     //aspetto che i 3 thread terminino
     //questo perchè se il main termina i thread vengono terminati
