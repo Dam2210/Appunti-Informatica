@@ -11,9 +11,11 @@
             "id": "9810ccc9a068ba54",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2o anno/Sistemi Operativi e Reti/MOD I/MergeSOR.pdf"
+                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Sistemi Operativi e Reti/MOD I/MergeSOR.pdf",
+                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Sistemi Operativi e Reti/MOD I/MergeSOR.pdf",
+                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Sistemi Operativi e Reti/MOD I/MergeSOR.pdf"
+                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md"
               }
             }
           },
@@ -170,6 +172,7 @@
   },
   "active": "9810ccc9a068ba54",
   "lastOpenFiles": [
+    "2o anno/Sistemi Operativi e Reti/MOD I/MergeSOR.pdf",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 13 - Funzioni time e space-constructible e specifiche classi di complessità.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 6 - Accettabilità, decidibilità e calcolabilità.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 9 - Halting Problem.md",
