@@ -11,12 +11,12 @@
             "id": "9810ccc9a068ba54",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
-                "mode": "source",
-                "source": false
-              }
+                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Teoria-Algoritmi MODULO 1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Teoria-Algoritmi MODULO 1"
             }
           }
         ]
@@ -38,8 +38,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora risorse"
             }
           },
           {
@@ -54,7 +57,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
             }
           },
           {
@@ -62,7 +67,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
             }
           }
         ]
@@ -86,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
+                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Teoria-Algoritmi MODULO 1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti a Teoria-Algoritmi MODULO 1"
             }
           },
           {
@@ -103,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
+                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Teoria-Algoritmi MODULO 1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita da Teoria-Algoritmi MODULO 1"
             }
           },
           {
@@ -116,8 +127,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
             }
           },
           {
@@ -126,8 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md"
-              }
+                "file": "2o anno/Algoritmi e Strutture Dati/MOD I/Teoria-Algoritmi MODULO 1.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura di Teoria-Algoritmi MODULO 1"
             }
           },
           {
@@ -135,7 +155,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -151,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista grafo"
             }
           }
         ]
@@ -172,6 +196,8 @@
   },
   "active": "9810ccc9a068ba54",
   "lastOpenFiles": [
+    "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 1 - Un'introduzione informale agli algoritmi.md",
+    "2o anno/Algoritmi e Strutture Dati/MOD I/Capitolo 0 - Algoritmi e strutture dati.md",
     "2o anno/Sistemi Operativi e Reti/MOD I/MergeSOR.pdf",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 13 - Funzioni time e space-constructible e specifiche classi di complessità.md",
     "2o anno/Fondamenti di Informatica/MOD II/Lezione 6 - Accettabilità, decidibilità e calcolabilità.md",
@@ -212,11 +238,9 @@
     "2o anno/Fondamenti di Informatica/MOD II/img/img19.png",
     "2o anno/Fondamenti di Informatica/MOD II/img",
     "2o anno/Fondamenti di Informatica/MOD II/MOD II/img",
-    "2o anno/Fondamenti di Informatica/MOD II/MOD II/Th - Dimostrazioni.md",
     "2o anno/Fondamenti di Informatica/MOD II/MOD II",
     "2o anno/Fondamenti di Informatica/MOD II/Esercizi",
     "2o anno/Fondamenti di Informatica/MOD II",
-    "2o anno/Fondamenti di Informatica/MOD II/prove esame.pdf",
-    "FI/MOD I"
+    "2o anno/Fondamenti di Informatica/MOD II/prove esame.pdf"
   ]
 }
